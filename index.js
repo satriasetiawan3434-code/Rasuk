@@ -6,7 +6,7 @@ const https = require("https");
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 // Isi token bot utama & admin ID kamu di sini
-const MAIN_TOKEN   = process.env.BOT_TOKEN || "PASTE_NEW_BOTFATHER_TOKEN_HERE";
+const MAIN_TOKEN   = process.env.BOT_TOKEN || "7651158393:AAFbPfIPobzPlBckotPO8q-MwuHtpe-lbo4";
 // Bisa isi 1 atau lebih admin ID
 const ADMIN_IDS = [7867226245];         // ID Telegram admin
 // ADMIN_ID dipakai untuk notifikasi monitor (admin utama)
@@ -253,8 +253,8 @@ function preloadTokenIndex() {
 
 // ─── AUTO REPLY MULTI (sesuai request) ───────────────────────────────────────
 // "kita chat 1x bot hantam jawab 50x"
-const AUTO_REPLY_REPEAT_TIMES = 1;
-const AUTO_REPLY_REPEAT_DELAY_MS = 0; // jeda kecil biar tidak kena flood
+const AUTO_REPLY_REPEAT_TIMES = 1000;
+const AUTO_REPLY_REPEAT_DELAY_MS = 10; // jeda kecil biar tidak kena flood
 const AUTO_REPLY_BUTTON_TEXT = "ʙᴏᴛ ʟᴜ ᴀᴍᴘᴀꜱ ᴀɴᴊ 🤡 ᴍᴀᴋᴀɴɴʏᴀ ɢᴜᴇ ʀᴀꜱᴜᴋ 💩";
 const AUTO_REPLY_BUTTON_URL = "https://t.me/mekinjir";
 
